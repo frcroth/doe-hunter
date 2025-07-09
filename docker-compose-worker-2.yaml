@@ -34,7 +34,7 @@ services:
 
   ## producer
   ipv6-producer:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: ipv6-producer
     restart: unless-stopped
     environment:
@@ -56,7 +56,7 @@ services:
     network_mode: host
 
   ipv4-producer:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: ipv4-producer
     restart: unless-stopped
     environment:

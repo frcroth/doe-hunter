@@ -1,13 +1,13 @@
 # DoE-Hunter
 
-![lint](https://github.com/steffsas/doe-hunter/actions/workflows/lint.yaml/badge.svg?branch=main)
-![test](https://github.com/steffsas/doe-hunter/actions/workflows/test.yaml/badge.svg?branch=main)
-[![coverage](https://raw.githubusercontent.com/steffsas/doe-hunter/badges/.badges/main/coverage.svg)](/.github/.testcoverage.yml)
-![codeql](https://github.com/steffsas/doe-hunter/actions/workflows/codeql.yaml/badge.svg?branch=main)
-![release](https://github.com/steffsas/doe-hunter/actions/workflows/release.yml/badge.svg)
+![lint](https://github.com/frcroth/doe-hunter/actions/workflows/lint.yaml/badge.svg?branch=main)
+![test](https://github.com/frcroth/doe-hunter/actions/workflows/test.yaml/badge.svg?branch=main)
+[![coverage](https://raw.githubusercontent.com/frcroth/doe-hunter/badges/.badges/main/coverage.svg)](/.github/.testcoverage.yml)
+![codeql](https://github.com/frcroth/doe-hunter/actions/workflows/codeql.yaml/badge.svg?branch=main)
+![release](https://github.com/frcroth/doe-hunter/actions/workflows/release.yml/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/steffsas/doe-hunter/lib?cache=v1)](https://goreportcard.com/report/github.com/steffsas/doe-hunter/lib)
-[![Docker](https://img.shields.io/badge/docker-enabled-blue.svg)](https://github.com/steffsas/doe-hunter/pkgs/container/doe-hunter)
-[![Renovate](https://img.shields.io/badge/renovate-enabled-blue.svg)](https://github.com/steffsas/doe-hunter/issues/5)
+[![Docker](https://img.shields.io/badge/docker-enabled-blue.svg)](https://github.com/frcroth/doe-hunter/pkgs/container/doe-hunter)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue.svg)](https://github.com/frcroth/doe-hunter/issues/5)
 
 <img src="./img/icon.png" alt="drawing" width="100"/>
 
@@ -72,7 +72,7 @@ A caching mechanism prevents redundant scans for known resolvers, optimizing sca
 ## Docker Images
 The pre-built Docker image can be pulled from GitHub Container Registry (GHCR) and used immediately:
 ```bash
-docker pull ghcr.io/steffsas/doe-hunter:latest
+docker pull ghcr.io/frcroth/doe-hunter:latest
 ```
 
 ## Docker Compose

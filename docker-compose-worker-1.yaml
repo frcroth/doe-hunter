@@ -31,7 +31,7 @@ services:
 
   ## scanner/consumer
   ddr-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: ddr-scanner
     restart: unless-stopped
     environment:
@@ -51,7 +51,7 @@ services:
 
   # disable canary scans for now
   # canary-scanner:
-  #   image: ghcr.io/steffsas/doe-hunter:latest
+  #   image: ghcr.io/frcroth/doe-hunter:latest
   #   container_name: canary-scanner
   #   restart: unless-stopped
   #   environment:
@@ -68,7 +68,7 @@ services:
   #   network_mode: host
 
   doh-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: doh-scanner
     restart: unless-stopped
     environment:
@@ -87,7 +87,7 @@ services:
     network_mode: host
 
   dot-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: dot-scanner
     restart: unless-stopped
     environment:
@@ -106,7 +106,7 @@ services:
     network_mode: host
 
   doq-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: doq-scanner
     restart: unless-stopped
     environment:
@@ -125,7 +125,7 @@ services:
     network_mode: host
 
   ptr-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: ptr-scanner
     restart: unless-stopped
     environment:
@@ -144,7 +144,7 @@ services:
     network_mode: host
 
   edsr-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: edsr-scanner
     restart: unless-stopped
     environment:
@@ -163,7 +163,7 @@ services:
     network_mode: host
 
   certificate-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: certificate-scanner
     restart: unless-stopped
     environment:
@@ -182,7 +182,7 @@ services:
     network_mode: host
 
   fingerprint-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: fingerprint-scanner
     restart: unless-stopped
     environment:
@@ -201,7 +201,7 @@ services:
     network_mode: host
 
   ddr-dnssec-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: ddr-dnssec-scanner
     restart: unless-stopped
     environment:
@@ -220,7 +220,7 @@ services:
     network_mode: host
 
   resinfo-scanner:
-    image: ghcr.io/steffsas/doe-hunter:latest
+    image: ghcr.io/frcroth/doe-hunter:latest
     container_name: resinfo-scanner
     restart: unless-stopped
     environment:

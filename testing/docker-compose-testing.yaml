@@ -146,7 +146,7 @@ services:
 
   ## scanner/consumer
   ddr-scanner:
-    image: ghcr.io/steffsas/doe-hunter:test
+    image: ghcr.io/frcroth/doe-hunter:test
     container_name: ddr-scanner
     restart: unless-stopped
     environment:
@@ -164,7 +164,7 @@ services:
 
   ## producer
   ipv4-producer:
-    image: ghcr.io/steffsas/doe-hunter:test
+    image: ghcr.io/frcroth/doe-hunter:test
     container_name: ipv4-producer
     restart: unless-stopped
     environment:
